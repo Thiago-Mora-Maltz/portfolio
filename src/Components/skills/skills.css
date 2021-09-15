@@ -1,0 +1,106 @@
+.row-skills{
+    margin-top: 100px;
+    padding: 20px 0px;
+    margin-bottom: 100px;
+}
+.col-skills{
+    width: 23%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    background-color: rgb(248, 248, 248);
+    width: 50%;
+    color: black;
+}
+
+.card:hover{
+    box-shadow: 2px 2px 1px 1px rgb(155, 155, 155);
+    scale: 1.1;
+    transition: 0.4s ease;
+}
+
+.icon{
+    font-size: 7vw;
+}
+
+.card img{
+    font-size: 7vw;
+}
+
+@media (max-width: 768px) {
+    .col-skills{
+        box-sizing: border-box;
+        width: 50%;
+    }
+    .card{
+        width: 40%;
+        height: 8vh;
+    }
+    .card img{
+        width: 60px;
+        height: 60px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .col-skills{
+        box-sizing: border-box;
+        width: 50%;
+    }
+    .card{
+        width: 40%;
+        height: 8vh;
+    }
+    .card img{
+        width: 45px;
+        height: 45px;
+    }
+    .icon{
+        font-size: 8vw;
+    }
+}
+
+@media (max-width: 375px) {
+    .col-skills{
+        box-sizing: border-box;
+        width: 50%;
+        padding: 0;
+    }
+    .card{
+        width: 50%;
+        height: 11vh;
+    }
+    .card img{
+        width: 50px;
+        height: 50px;
+    }
+    .row-skills{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+.html{
+    color: #ee6400;
+}
+.react{
+    color: #43d7ff
+}
+.angular{
+    color: rgba(255, 0, 0, 0.733);
+}
+.node{
+    color: #3cba82
+}
+.css{
+    color: #3cb9ff;
+}
+.js{
+    color: #f3db02;
+}
+.auth0{
+    padding: 10px 0;
+}
