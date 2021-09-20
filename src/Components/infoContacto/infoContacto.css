@@ -32,7 +32,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 414px) {
     .row-info{
         width: 95%;
     }

@@ -24,17 +24,14 @@ function Proyectos() {
                 rel='noreferrer'
                 href='https://github.com/Thiago-Mora-Maltz'
               >
-                <button className='button-proyecto'>View code</button>
+                <button className='button-proyecto'>Ver código</button>
               </a>
               <a target='_blank' rel='noreferrer' href=''>
-                <button className='button-proyecto blue'>Visit page</button>
+                {/* <button className='button-proyecto blue'>Visit page</button> */}
               </a>
             </div>
           </div>
-          <img // eslint-disable-next-line
-            src={gifs}
-            alt='proyecto'
-          />
+          <img src={gifs} alt='proyecto' />
         </div>
         <div className='col-proyecto'>
           <img src={noticias} alt='proyecto' />
@@ -53,7 +50,7 @@ function Proyectos() {
               rel='noreferrer'
               href='https://github.com/Thiago-Mora-Maltz'
             >
-              <button className='button-proyecto'>View code</button>
+              <button className='button-proyecto'>Ver código</button>
             </a>
           </div>
         </div>

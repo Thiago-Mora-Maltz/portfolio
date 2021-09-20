@@ -41,14 +41,20 @@
     .row-about{
         flex-wrap: wrap;
         margin: 0;
+        margin-top: 70px;
     }
     .col-photo{
         width: 0%;
     }
     .about{
         width: 100%;
+        padding-top: 30px;
     }
     .about h1{
         margin-bottom: 30px;
+    }
+    .col-photo img{
+        height: 400px;
+        width: 350px;    
     }
 }

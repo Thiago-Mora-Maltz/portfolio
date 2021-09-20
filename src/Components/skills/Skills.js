@@ -1,13 +1,5 @@
 import React from 'react'
 import './skills.css'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {
-//   faAngular,
-//   faReact,
-//   faHtml5,
-//   faNodeJs,
-//   faCss3Alt,
-// } from '@fortawesome/free-brands-svg-icons'
 import mongo from '../images/skills/mongodb.png'
 import redux from '../images/skills/redux.png'
 import auth0 from '../images/skills/auth0.png'
@@ -27,65 +19,65 @@ function Skills() {
       <div className='row row-skills'>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='html' src={html} />
+            <img className='icon' alt='html' src={html} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='css' src={css} />
+            <img className='icon' alt='css' src={css} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='nodejs' src={nodejs} />
+            <img className='icon' alt='nodejs' src={nodejs} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='angular' src={angular} />
+            <img className='icon' alt='angular' src={angular} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='react' src={react} />
+            <img className='icon' alt='react' src={react} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='redux' src={redux} />
+            <img className='icon' alt='redux' src={redux} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='git' src={git} />
+            <img className='icon' alt='git' src={git} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='mysql' src={mysql} />
+            <img className='icon' alt='mysql' src={mysql} />
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='mongo' src={mongo} />
-          </div>
-        </div>
-
-        <div className='col col-skills'>
-          <div className='card'>
-            <img alt='firebase' src={firebase} />
+            <img className='icon' alt='mongo' src={mongo} />
           </div>
         </div>
 
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='auth0' src={auth0} />
+            <img className='icon' alt='firebase' src={firebase} />
           </div>
         </div>
 
         <div className='col col-skills'>
           <div className='card'>
-            <img alt='bootstrap' src={bootstrap} />
+            <img className='icon' alt='auth0' src={auth0} />
+          </div>
+        </div>
+
+        <div className='col col-skills'>
+          <div className='card'>
+            <img className='icon' alt='bootstrap' src={bootstrap} />
           </div>
         </div>
       </div>

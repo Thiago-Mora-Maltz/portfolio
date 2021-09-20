@@ -21,6 +21,7 @@ const Navbar = () => {
             offset={-160}
             duration={500}
             className='navLink'
+            onClick={toggleNavActive}
           >
             About me
           </Link>
@@ -31,6 +32,7 @@ const Navbar = () => {
             offset={-80}
             duration={500}
             className='navLink'
+            onClick={toggleNavActive}
           >
             Tecnologías
           </Link>
@@ -41,6 +43,7 @@ const Navbar = () => {
             offset={-150}
             duration={500}
             className='navLink'
+            onClick={toggleNavActive}
           >
             Proyectos
           </Link>
@@ -48,8 +51,10 @@ const Navbar = () => {
             to='infoContacto'
             spy={true}
             smooth={true}
+            offset={-130}
             duration={500}
             className='navLink'
+            onClick={toggleNavActive}
           >
             Contacto
           </Link>
