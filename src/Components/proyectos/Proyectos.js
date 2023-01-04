@@ -3,11 +3,40 @@ import { Fragment } from 'react'
 import './proyectos.css'
 import gifs from '../images/gifsImage.png'
 import noticias from '../images/noticiasImage.png'
+import cadejo from '../images/cadejo_foto.png'
 function Proyectos() {
   return (
     <Fragment>
       <h1>Proyectos</h1>
       <div className='row sectionProyectos'>
+        <div className='col-proyecto'>
+          <div className='div-descripcion'>
+            <h2>Front-end</h2>
+            <h1>Cadejo Vermú Ecommerce</h1>
+            <p>
+              Proyecto final para Coderhouse. Ecommerce de Cadejo Vermú y Sol
+              negro tacos, dos emprendimientos gastronómicos emergentes que van
+              muy bien de la mano.
+            </p>
+            <div className='div-buttons'>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://github.com/Thiago-Mora-Maltz'
+              >
+                <button className='button-proyecto'>Ver código</button>
+              </a>
+              <a
+                target='_blank'
+                rel='noreferrer'
+                href='https://cadejovermu.netlify.app/'
+              >
+                <button className='button-proyecto blue'>Ver página</button>
+              </a>
+            </div>
+          </div>
+          <img src={cadejo} alt='proyecto' />
+        </div>
         <div className='col-proyecto'>
           <div className='div-descripcion'>
             <h2>Front-end</h2>
@@ -26,9 +55,7 @@ function Proyectos() {
               >
                 <button className='button-proyecto'>Ver código</button>
               </a>
-              <a target='_blank' rel='noreferrer' href=''>
-                {/* <button className='button-proyecto blue'>Visit page</button> */}
-              </a>
+              <a target='_blank' rel='noreferrer' href=''></a>
             </div>
           </div>
           <img src={gifs} alt='proyecto' />

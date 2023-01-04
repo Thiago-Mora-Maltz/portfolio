@@ -19,65 +19,76 @@ function Skills() {
       <div className='row row-skills'>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='html' src={html} />
+            <img alt='html' src={html} />
+            <p>HTML</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='css' src={css} />
+            <img alt='css' src={css} />
+            <p>Css</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
             <img className='icon' alt='nodejs' src={nodejs} />
+            <p>NodeJs</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='angular' src={angular} />
+            <img alt='angular' src={angular} />
+            <p>Angular</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='react' src={react} />
+            <img alt='react' src={react} />
+            <p>ReactJs</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='redux' src={redux} />
+            <img alt='redux' src={redux} />
+            <p>Redux</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='git' src={git} />
+            <img alt='git' src={git} />
+            <p>Git</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='mysql' src={mysql} />
+            <img alt='mysql' src={mysql} />
+            <p>MySQL</p>
           </div>
         </div>
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='mongo' src={mongo} />
+            <img alt='mongo' src={mongo} />
+            <p>MongoDB</p>
+          </div>
+        </div>
+        <div className='col col-skills'>
+          <div className='card'>
+            <img alt='firebase' src={firebase} />
+            <p>Firebase</p>
           </div>
         </div>
 
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='firebase' src={firebase} />
+            <img alt='auth0' src={auth0} />
+            <p>Auth0</p>
           </div>
         </div>
 
         <div className='col col-skills'>
           <div className='card'>
-            <img className='icon' alt='auth0' src={auth0} />
-          </div>
-        </div>
-
-        <div className='col col-skills'>
-          <div className='card'>
-            <img className='icon' alt='bootstrap' src={bootstrap} />
+            <img alt='bootstrap' src={bootstrap} />
+            <p>Bootstrap</p>
           </div>
         </div>
       </div>

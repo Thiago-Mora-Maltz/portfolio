@@ -26,10 +26,21 @@ const Navbar = () => {
             About me
           </Link>
           <Link
-            to='skills'
+            to='estudios'
             spy={true}
             smooth={true}
             offset={-80}
+            duration={500}
+            className='navLink'
+            onClick={toggleNavActive}
+          >
+            Estudios
+          </Link>
+          <Link
+            to='skills'
+            spy={true}
+            smooth={true}
+            offset={-170}
             duration={500}
             className='navLink'
             onClick={toggleNavActive}
