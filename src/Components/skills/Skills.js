@@ -26,7 +26,7 @@ function Skills() {
         <div className='col col-skills'>
           <div className='card'>
             <img alt='css' src={css} />
-            <p>Css</p>
+            <p>CSS</p>
           </div>
         </div>
         <div className='col col-skills'>

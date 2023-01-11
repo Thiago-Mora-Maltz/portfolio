@@ -43,20 +43,24 @@
     }
 }
 
-
 @media (max-width: 480px) {
     .col-skills{
         box-sizing: border-box;
         width: 50%;
         padding: 0;
+        flex-wrap: wrap;
     }
     .card{
         width: 50%;
         height: 11vh;
     }
     .row-skills{
-        margin-top: 30px;
-        margin-bottom: 20px;
+        padding: 0;
+    }
+    .card img{
+        max-width: 80px;
+        max-height: 80px;
+        object-fit: cover;
     }
 }
 .html{

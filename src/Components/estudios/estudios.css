@@ -23,4 +23,27 @@
     .h2-estudios{
         margin: 30px 0;
     }
+    .div-texto{
+        justify-content: center;
+    }
+    .div-texto p{
+        text-align: center;
+    }
+    .estudios{
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .h2-estudios{
+        margin: 30px 0;
+    }
+    .div-texto{
+        justify-content: center;
+    }
+    .div-texto p{
+        text-align: center;
+    }
+    .estudios{
+        text-align: center;
+    }
 }

@@ -77,8 +77,11 @@
     }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 480px) {
     .col-proyecto{
         margin-bottom: 60px;
+    }
+    .div-descripcion h1{
+        font-size: 25px;
     }
 }

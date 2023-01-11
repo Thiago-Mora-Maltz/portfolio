@@ -58,17 +58,19 @@
         margin-top: 70px;
     }
     .col-photo{
-        width: 0%;
+        /* width: 0%; */
+        display: none;
     }
     .about{
+        box-sizing: border-box;
         width: 100%;
         padding-top: 30px;
     }
     .about h1{
         margin-bottom: 30px;
     }
-    .col-photo img{
+    /* .col-photo img{
         height: 400px;
         width: 350px;    
-    }
+    } */
 }
